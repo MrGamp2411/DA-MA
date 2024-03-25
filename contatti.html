@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +28,20 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+<style>
+  .logo {
+    font-family: 'Solitreo', sans-serif;
+  }
+
+  #hero {
+    height: 75vh; /* Imposta l'altezza della sezione a metà dello schermo */
+  }
+
+  #main {
+    margin-top: -30vh; /* Compensa lo spostamento del resto del contenuto */
+  }
+</style>
 
 </head>
 
@@ -56,7 +72,7 @@
   <section id="hero">
     <div class="hero-container">
       <h3>Benvenuto da <strong>DA-MA</strong></h3>
-      <h1>Qui Sotto Troverai I nosotri contatti</h1>
+      <h1>Qui Sotto Troverai I nostri contatti</h1>
     </div>
   </section><!-- End Hero -->
 
@@ -75,7 +91,7 @@
         <div class="icon-box">
           <div class="icon"><i class="bi bi-telephone-fill"></i></div>
           <h4 class="title"><a href="tel:+41762441281">Telefono 1</a></h4>
-          <p class="description">Chiamaci per una conversazione rapida e veloce. Numero: +41 76 244 12 81</p>
+          <p class="description">+41 76 244 12 81<br>Chiamaci per una conversazione rapida e veloce.</p>
         </div>
       </div>
 
@@ -83,7 +99,7 @@
         <div class="icon-box">
           <div class="icon"><i class="bi bi-telephone-fill"></i></div>
           <h4 class="title"><a href="tel:+41792401537">Telefono 2</a></h4>
-          <p class="description">Chiamaci per una conversazione rapida e veloce. Numero: +41 79 240 15 37</p>
+          <p class="description">+41 79 240 15 37<br>Chiamaci per una conversazione rapida e veloce.</p>
         </div>
       </div>
 
@@ -91,7 +107,7 @@
         <div class="icon-box">
           <div class="icon"><i class="bi bi-whatsapp"></i></div>
           <h4 class="title"><a href="https://wa.me/+41762441281">Whatsapp</a></h4>
-          <p class="description">Contattaci su Whatsapp per una chat facile e veloce. Numero: +41 76 244 12 81</p>
+          <p class="description">+41 76 244 12 81<br>Contattaci su Whatsapp per una chat facile e veloce.</p>
         </div>
       </div>
 
@@ -99,13 +115,20 @@
         <div class="icon-box">
           <div class="icon"><i class="bi bi-envelope"></i></div>
           <h4 class="title"><a href="mailto:info@da-ma-service.ch">Email</a></h4>
-          <p class="description">Scrivici un'email per lavori più complessi. Indirizzo: info@da-ma-service.ch</p>
+          <p class="description">Scrivici via email, ti risponderemo al pi&ugrave; presto possibile.</p>
         </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col">
+        <p>Non esitate a contattarci per ulteriori informazioni.</p>
       </div>
     </div>
 
   </div>
 </section><!-- End Services Section -->
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -122,8 +145,7 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Vendor JS Files -->  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
